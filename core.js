@@ -1397,7 +1397,6 @@ function renderSheet(){
   renderSpecialRow();
   renderSkillTotals();
 }
- — ${subset} | Level ${lvl}`;
 
   hpEl.textContent = pad(state.hpCurrent,3)+"/"+pad(hpMax,3);
   radEl.textContent = pad(state.rad||0,4);
